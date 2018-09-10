@@ -1,0 +1,113 @@
+//Joe Lusk
+//BWM 290
+//Assignment 1
+//9-9-18
+
+*{
+	font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+//Declare Variables
+
+$accent: red;
+$accent2: lighten( $accent, 20% );
+$background: #333333;
+$backgroundDarker: darken( $background, 5% );
+$backgroundLighter: lighten( $background, 5% );
+$padding:20px;
+
+//Main CSS
+
+body{
+	margin: 0px 200px 0px 200px;
+	background-color:$backgroundDarker;
+	color:white;
+}
+
+img{
+	padding:$padding;
+}
+
+a{
+	color:$accent;
+	transition:.1s;
+}
+
+a:hover{
+	color:$accent2;
+}
+
+#content{
+	padding:$padding;
+	background-color:$background;
+	height:100%;
+}
+
+//Textbox placeholders
+
+
+.textbox{
+	border-radius:4px;
+	height:20px;
+	background:white;
+	width:100px;
+
+}
+.accenttextbox{
+	border-radius:4px;
+	height:20px;
+	background:red;
+	width:100px;
+	transition:.1s;
+}
+.accenttextbox:hover{
+	background:$accent2
+}
+
+
+
+//Table CSS
+
+tr td:nth-child(2) { 
+   text-align: right;
+}
+
+table{
+	border-collapse:collapse;
+}
+
+
+td{
+	padding: 10px 20px 10px 20px;
+}
+
+tr{
+	background-color: $backgroundDarker;
+}
+
+tr:first-child{
+	background:none;
+}
+
+th{
+	background-color:$accent;
+	padding:10px;
+}
+
+th:first-child{
+	border-radius: 4px 0px 0px 0px;
+}
+th:nth-child(2){
+	border-radius: 0px 4px 0px 0px;
+}
+
+tr:nth-child(even){
+	background-color:$backgroundLighter;
+}
+
+//Footer
+
+footer{
+	padding:$padding 10px $padding 10px;
+	background-color:$backgroundLighter
+}
