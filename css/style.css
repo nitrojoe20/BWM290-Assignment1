@@ -24,14 +24,14 @@ a {
 .textbox {
   border-radius: 4px;
   height: 20px;
-  background: white;
-  width: 100px; }
+  width: 100px;
+  background: white; }
 
 .accenttextbox {
   border-radius: 4px;
   height: 20px;
-  background: red;
   width: 100px;
+  background: red;
   transition: .1s; }
   .accenttextbox:hover {
     background: #ff6666; }
@@ -64,7 +64,7 @@ th:nth-child(2) {
 tr:nth-child(even) {
   background-color: #404040; }
 
-footer {
+footer, p {
   padding: 20px 10px 20px 10px;
   background-color: #404040; }
 

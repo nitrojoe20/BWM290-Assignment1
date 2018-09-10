@@ -27,6 +27,10 @@ body{
 	color:white;
 }
 
+p{
+	@extend footer;
+}
+
 img{
 	padding:$padding;
 }
@@ -47,18 +51,19 @@ a{
 
 //Textbox placeholders
 
-.textbox{
+@mixin textbox{
 	border-radius:4px;
 	height:20px;
-	background:white;
 	width:100px;
+}
 
+.textbox{
+	@include textbox;
+	background:white;
 }
 .accenttextbox{
-	border-radius:4px;
-	height:20px;
+	@include textbox;
 	background:red;
-	width:100px;
 	transition:.1s;
 	&:hover{
 		background:$accent2;
