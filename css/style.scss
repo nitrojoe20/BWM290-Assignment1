@@ -4,7 +4,10 @@
 //9-9-18
 
 *{
-	font-family: 'Helvetica', 'Arial', sans-serif;
+	font:{
+	family: 'Helvetica', 'Arial', sans-serif;
+	weight: normal;
+	}
 }
 
 //Declare Variables
@@ -31,10 +34,9 @@ img{
 a{
 	color:$accent;
 	transition:.1s;
-}
-
-a:hover{
-	color:$accent2;
+	&:hover{
+		color:$accent2;
+	}
 }
 
 #content{
@@ -44,7 +46,6 @@ a:hover{
 }
 
 //Textbox placeholders
-
 
 .textbox{
 	border-radius:4px;
@@ -59,9 +60,9 @@ a:hover{
 	background:red;
 	width:100px;
 	transition:.1s;
-}
-.accenttextbox:hover{
-	background:$accent2
+	&:hover{
+		background:$accent2;
+	}
 }
 
 

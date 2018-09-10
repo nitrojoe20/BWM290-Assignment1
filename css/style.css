@@ -1,5 +1,6 @@
 * {
-  font-family: 'Helvetica', 'Arial', sans-serif; }
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-weight: normal; }
 
 body {
   margin: 0px 200px 0px 200px;
@@ -12,9 +13,8 @@ img {
 a {
   color: red;
   transition: .1s; }
-
-a:hover {
-  color: #ff6666; }
+  a:hover {
+    color: #ff6666; }
 
 #content {
   padding: 20px;
@@ -33,9 +33,8 @@ a:hover {
   background: red;
   width: 100px;
   transition: .1s; }
-
-.accenttextbox:hover {
-  background: #ff6666; }
+  .accenttextbox:hover {
+    background: #ff6666; }
 
 tr td:nth-child(2) {
   text-align: right; }
