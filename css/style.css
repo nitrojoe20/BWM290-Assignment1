@@ -12,7 +12,7 @@ img {
 
 a {
   color: red;
-  transition: .1s; }
+  transition: .5s; }
   a:hover {
     color: #ff6666; }
 
@@ -24,13 +24,13 @@ a {
 .textbox {
   border-radius: 4px;
   height: 20px;
-  width: 100px;
+  width: 200px;
   background: white; }
 
 .accenttextbox {
   border-radius: 4px;
   height: 20px;
-  width: 100px;
+  width: 200px;
   background: red;
   transition: .1s; }
   .accenttextbox:hover {
@@ -53,7 +53,7 @@ tr:first-child {
 
 th {
   background-color: red;
-  padding: 10px; }
+  padding: 10px/2; }
 
 th:first-child {
   border-radius: 4px 0px 0px 0px; }

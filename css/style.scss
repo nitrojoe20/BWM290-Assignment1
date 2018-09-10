@@ -37,7 +37,7 @@ img{
 
 a{
 	color:$accent;
-	transition:.1s;
+	transition:.5s;
 	&:hover{
 		color:$accent2;
 	}
@@ -54,7 +54,7 @@ a{
 @mixin textbox{
 	border-radius:4px;
 	height:20px;
-	width:100px;
+	width:100px*2;
 }
 
 .textbox{
@@ -97,7 +97,7 @@ tr:first-child{
 
 th{
 	background-color:$accent;
-	padding:10px;
+	padding:10px/2;
 }
 
 th:first-child{
